@@ -5,7 +5,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         MyException check = new MyException();
         check.str = sc.nextLine();
-        check.checkingExceptions(); // проверяем всю строку на исключения
+        check.checkingExceptions();
 
         String[] character = check.str.split(" ");
         for (String s: character) {
